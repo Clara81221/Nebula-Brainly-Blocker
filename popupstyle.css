@@ -13,17 +13,32 @@
     src: url('fonts/Nebula.ttf') format('truetype');
   }
 
-  body {
-    background-color: black;
+  html {
+    max-width: 400px;
+    margin: 0px;
+    padding: 10px;
   }
 
-  h1 {
+  body {
+    background-color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .h1 {
     font-family: 'Nebula';
     color: red;
-    margin-bottom: 10px;
+    font-size: 26px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    white-space: nowrap;
   }
 
   p {
+    margin: 0px;
+    margin-bottom: 10px;
     font-family: "Arame Thin";
     color: #ffb100;
   }
@@ -40,6 +55,6 @@
 
   a {
     font-family: "Arame";
-    color: #ffb100;
-    text-decoration: none;
+    color: red;
+    margin-bottom: 50px;
   }

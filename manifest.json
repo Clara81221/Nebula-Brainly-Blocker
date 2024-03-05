@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Nebula Brainly Blocker",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Removes the answer obfuscation by deleting the key which shows you've visited the site before",
     "permissions": ["storage", "webNavigation"],
     "browser_action": {
