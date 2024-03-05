@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Arame';
+    src: url('fonts/Arame.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Arame Thin';
+    src: url('fonts/Arame-Thin.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Nebula';
+    src: url('fonts/Nebula.ttf') format('truetype');
+  }
+
+  body {
+    background-color: black;
+  }
+
+  h1 {
+    font-family: 'Nebula';
+    color: red;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-family: "Arame Thin";
+    color: #ffb100;
+  }
+
+  button {
+    font-family: "Arame";
+    color: #ffb100;
+    border-radius: 0%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffb100;
+    background-color: black;
+  }
+
+  a {
+    font-family: "Arame";
+    color: #ffb100;
+    text-decoration: none;
+  }
